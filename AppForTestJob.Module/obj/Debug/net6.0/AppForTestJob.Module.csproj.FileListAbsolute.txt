@@ -1,0 +1,12 @@
+C:\Users\Przemek-AL\Desktop\re\AppForTestJob\AppForTestJob.Module\bin\Debug\net6.0\AppForTestJob.Module.deps.json
+C:\Users\Przemek-AL\Desktop\re\AppForTestJob\AppForTestJob.Module\bin\Debug\net6.0\AppForTestJob.Module.dll
+C:\Users\Przemek-AL\Desktop\re\AppForTestJob\AppForTestJob.Module\bin\Debug\net6.0\AppForTestJob.Module.pdb
+C:\Users\Przemek-AL\Desktop\re\AppForTestJob\AppForTestJob.Module\obj\Debug\net6.0\AppForTestJob.Module.csproj.AssemblyReference.cache
+C:\Users\Przemek-AL\Desktop\re\AppForTestJob\AppForTestJob.Module\obj\Debug\net6.0\AppForTestJob.Module.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Przemek-AL\Desktop\re\AppForTestJob\AppForTestJob.Module\obj\Debug\net6.0\AppForTestJob.Module.AssemblyInfoInputs.cache
+C:\Users\Przemek-AL\Desktop\re\AppForTestJob\AppForTestJob.Module\obj\Debug\net6.0\AppForTestJob.Module.AssemblyInfo.cs
+C:\Users\Przemek-AL\Desktop\re\AppForTestJob\AppForTestJob.Module\obj\Debug\net6.0\AppForTestJob.Module.csproj.CoreCompileInputs.cache
+C:\Users\Przemek-AL\Desktop\re\AppForTestJob\AppForTestJob.Module\obj\Debug\net6.0\AppForTestJob.Module.dll
+C:\Users\Przemek-AL\Desktop\re\AppForTestJob\AppForTestJob.Module\obj\Debug\net6.0\refint\AppForTestJob.Module.dll
+C:\Users\Przemek-AL\Desktop\re\AppForTestJob\AppForTestJob.Module\obj\Debug\net6.0\AppForTestJob.Module.pdb
+C:\Users\Przemek-AL\Desktop\re\AppForTestJob\AppForTestJob.Module\obj\Debug\net6.0\ref\AppForTestJob.Module.dll

@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="22.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views DefaultListEditor="DevExpress.ExpressApp.Blazor.Editors.DxGridListEditor">
+    <DetailView Id="AccountNumber_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="AccountNumber">
+              <LayoutItem Id="AccountNumberId" Removed="True" />
+              <LayoutItem Id="EntityId" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="AccountNumber_ListView">
+      <Columns>
+        <ColumnInfo Id="AccountNumberId" Removed="True" />
+        <ColumnInfo Id="EntityId" Removed="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="AccountNumber_LookupListView">
+      <Columns>
+        <ColumnInfo Id="AccountNumberId" Removed="True" />
+        <ColumnInfo Id="EntityId" Removed="True" />
+      </Columns>
+    </ListView>
+    <DetailView Id="AuthorizedClerk_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="AuthorizedClerk">
+              <LayoutGroup Id="AuthorizedClerk_col1" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="AuthorizedClerk_ListView">
+      <Columns>
+        <ColumnInfo Id="AuthorizedClerkId" Removed="True" />
+        <ColumnInfo Id="EntityId" Removed="True" />
+        <ColumnInfo Id="EntityPersonId" Removed="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="AuthorizedClerk_LookupListView">
+      <Columns>
+        <ColumnInfo Id="AuthorizedClerkId" Removed="True" />
+        <ColumnInfo Id="EntityId" Removed="True" />
+        <ColumnInfo Id="EntityPersonId" Removed="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="Entity_AccountNumbers_ListView">
+      <Columns>
+        <ColumnInfo Id="AccountNumberId" Removed="True" />
+        <ColumnInfo Id="EntityId" Removed="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="Entity_AuthorizedClerks_ListView">
+      <Columns>
+        <ColumnInfo Id="AuthorizedClerkId" Removed="True" />
+        <ColumnInfo Id="EntityId" Removed="True" />
+        <ColumnInfo Id="EntityPersonId" Removed="True" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Entity_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Entity">
+              <LayoutGroup Id="Entity_col1">
+                <LayoutItem Id="EntityId" Removed="True" />
+                <LayoutItem Id="PeselId" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Entity_ListView">
+      <Columns>
+        <ColumnInfo Id="EntityId" Removed="True" />
+        <ColumnInfo Id="PeselId" Removed="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="Entity_Partners_ListView">
+      <Columns>
+        <ColumnInfo Id="EntityId" Removed="True" />
+        <ColumnInfo Id="EntityPersonId" Removed="True" />
+        <ColumnInfo Id="PartnerId" Removed="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="Entity_Representatives_ListView">
+      <Columns>
+        <ColumnInfo Id="EntityId" Removed="True" />
+        <ColumnInfo Id="EntityPersonId" Removed="True" />
+        <ColumnInfo Id="RepresentativeId" Removed="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="EntityPerson_AuthorizedClerks_ListView">
+      <Columns>
+        <ColumnInfo Id="AuthorizedClerkId" Removed="True" />
+        <ColumnInfo Id="EntityId" Removed="True" />
+        <ColumnInfo Id="EntityPersonId" Removed="True" />
+      </Columns>
+    </ListView>
+    <DetailView Id="EntityPerson_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="EntityPerson">
+              <LayoutGroup Id="EntityPerson_col1">
+                <LayoutItem Id="EntityPersonId" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="EntityPerson_col2">
+                <LayoutItem Id="Pesel" ViewItem="Pesel" />
+                <LayoutItem Id="PeselId" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="EntityPerson_ListView">
+      <Columns>
+        <ColumnInfo Id="EntityPersonId" Removed="True" />
+        <ColumnInfo Id="PeselId" Removed="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="EntityPerson_Partners_ListView">
+      <Columns>
+        <ColumnInfo Id="EntityId" Removed="True" />
+        <ColumnInfo Id="EntityPersonId" Removed="True" />
+        <ColumnInfo Id="PartnerId" Removed="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="EntityPerson_Representatives_ListView">
+      <Columns>
+        <ColumnInfo Id="EntityId" Removed="True" />
+        <ColumnInfo Id="EntityPersonId" Removed="True" />
+        <ColumnInfo Id="RepresentativeId" Removed="True" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Partner_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Partner">
+              <LayoutGroup Id="Partner_col1" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Partner_ListView">
+      <Columns>
+        <ColumnInfo Id="EntityId" Removed="True" />
+        <ColumnInfo Id="EntityPersonId" Removed="True" />
+        <ColumnInfo Id="PartnerId" Removed="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="Partner_LookupListView">
+      <Columns>
+        <ColumnInfo Id="EntityId" Removed="True" />
+        <ColumnInfo Id="EntityPersonId" Removed="True" />
+        <ColumnInfo Id="PartnerId" Removed="True" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Pesel_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Pesel">
+              <LayoutItem Id="PeselId" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Pesel_Entities_ListView">
+      <Columns>
+        <ColumnInfo Id="EntityId" Removed="True" />
+        <ColumnInfo Id="PeselId" Removed="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="Pesel_EntityPeople_ListView">
+      <Columns>
+        <ColumnInfo Id="EntityPersonId" Removed="True" />
+        <ColumnInfo Id="PeselId" Removed="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="Pesel_ListView">
+      <Columns>
+        <ColumnInfo Id="PeselId" Removed="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="Pesel_LookupListView">
+      <Columns>
+        <ColumnInfo Id="PeselId" Removed="True" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Representative_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Representative">
+              <LayoutGroup Id="Representative_col1" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Representative_ListView">
+      <Columns>
+        <ColumnInfo Id="EntityId" Removed="True" />
+        <ColumnInfo Id="EntityPersonId" Removed="True" />
+        <ColumnInfo Id="RepresentativeId" Removed="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="Representative_LookupListView">
+      <Columns>
+        <ColumnInfo Id="EntityId" Removed="True" />
+        <ColumnInfo Id="EntityPersonId" Removed="True" />
+        <ColumnInfo Id="RepresentativeId" Removed="True" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>
