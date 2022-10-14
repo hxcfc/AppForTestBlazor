@@ -5,6 +5,7 @@ using DevExpress.Persistent.BaseImpl.EF.PermissionPolicy;
 using DevExpress.Persistent.BaseImpl.EF;
 using DevExpress.ExpressApp.Design;
 using DevExpress.ExpressApp.EFCore.DesignTime;
+using System.Text.Json;
 
 namespace AppForTestJob.Module.BusinessObjects;
 
@@ -94,7 +95,7 @@ public class AppForTestJobEFCoreDbContext : DbContext
                 .HasColumnName("krs");
 
             entity.Property(e => e.Name)
-                .HasMaxLength(50)
+                .HasMaxLength(150)
                 .IsUnicode(false)
                 .HasColumnName("name");
 
@@ -106,7 +107,7 @@ public class AppForTestJobEFCoreDbContext : DbContext
             entity.Property(e => e.PeselId).HasColumnName("peselID");
 
             entity.Property(e => e.RegistrationDenialBasis)
-                .HasMaxLength(50)
+                .HasMaxLength(150)
                 .IsUnicode(false)
                 .HasColumnName("registrationDenialBasis");
 
@@ -124,7 +125,7 @@ public class AppForTestJobEFCoreDbContext : DbContext
                 .HasColumnName("regon");
 
             entity.Property(e => e.RemovalBasis)
-                .HasMaxLength(50)
+                .HasMaxLength(150)
                 .IsUnicode(false)
                 .HasColumnName("removalBasis");
 
@@ -133,12 +134,12 @@ public class AppForTestJobEFCoreDbContext : DbContext
                 .HasColumnName("removalDate");
 
             entity.Property(e => e.ResidenceAddress)
-                .HasMaxLength(50)
+                .HasMaxLength(150)
                 .IsUnicode(false)
                 .HasColumnName("residenceAddress");
 
             entity.Property(e => e.RestorationBasis)
-                .HasMaxLength(50)
+                .HasMaxLength(150)
                 .IsUnicode(false)
                 .HasColumnName("restorationBasis");
 
@@ -146,10 +147,10 @@ public class AppForTestJobEFCoreDbContext : DbContext
                 .HasColumnType("date")
                 .HasColumnName("restorationDate");
 
-            entity.Property(e => e.StatusVat).HasColumnName("statusVat");
+            entity.Property(e => e.StatusVat).HasMaxLength(50).IsUnicode(false).HasColumnName("statusVat");
 
             entity.Property(e => e.WorkingAddress)
-                .HasMaxLength(50)
+                .HasMaxLength(150)
                 .IsUnicode(false)
                 .HasColumnName("workingAddress");
 
@@ -166,17 +167,17 @@ public class AppForTestJobEFCoreDbContext : DbContext
             entity.Property(e => e.EntityPersonId).HasColumnName("entityPersonID");
 
             entity.Property(e => e.CompanyName)
-                .HasMaxLength(50)
+                .HasMaxLength(150)
                 .IsUnicode(false)
                 .HasColumnName("companyName");
 
             entity.Property(e => e.FirstName)
-                .HasMaxLength(50)
+                .HasMaxLength(150)
                 .IsUnicode(false)
                 .HasColumnName("firstName");
 
             entity.Property(e => e.LastName)
-                .HasMaxLength(50)
+                .HasMaxLength(150)
                 .IsUnicode(false)
                 .HasColumnName("lastName");
 
@@ -241,6 +242,7 @@ public class AppForTestJobEFCoreDbContext : DbContext
                 .HasForeignKey(d => d.EntityPersonId)
                 .HasConstraintName("FK_Representatives_EntityPerson");
         });
+
     }
 
 

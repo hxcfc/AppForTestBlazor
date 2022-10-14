@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Blazor.Server\\AppForTestJob.Blazor.Server.csproj": {}
+    "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Blazor.Server\\AppForTestJob.Blazor.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Blazor.Server\\AppForTestJob.Blazor.Server.csproj": {
+    "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Blazor.Server\\AppForTestJob.Blazor.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Blazor.Server\\AppForTestJob.Blazor.Server.csproj",
+        "projectUniqueName": "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Blazor.Server\\AppForTestJob.Blazor.Server.csproj",
         "projectName": "AppForTestJob.Blazor.Server",
-        "projectPath": "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Blazor.Server\\AppForTestJob.Blazor.Server.csproj",
+        "projectPath": "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Blazor.Server\\AppForTestJob.Blazor.Server.csproj",
         "packagesPath": "C:\\Users\\Przemek-AL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Blazor.Server\\obj\\",
+        "outputPath": "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Blazor.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
@@ -35,8 +35,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Module\\AppForTestJob.Module.csproj": {
-                "projectPath": "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Module\\AppForTestJob.Module.csproj"
+              "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Module\\AppForTestJob.Module.csproj": {
+                "projectPath": "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Module\\AppForTestJob.Module.csproj"
               }
             }
           }
@@ -105,14 +105,14 @@
         }
       }
     },
-    "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Module\\AppForTestJob.Module.csproj": {
+    "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Module\\AppForTestJob.Module.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Module\\AppForTestJob.Module.csproj",
+        "projectUniqueName": "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Module\\AppForTestJob.Module.csproj",
         "projectName": "AppForTestJob.Module",
-        "projectPath": "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Module\\AppForTestJob.Module.csproj",
+        "projectPath": "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Module\\AppForTestJob.Module.csproj",
         "packagesPath": "C:\\Users\\Przemek-AL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Module\\obj\\",
+        "outputPath": "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Module\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
@@ -176,6 +176,10 @@
               "target": "Package",
               "version": "[22.1.5, )"
             },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[5.0.5, )"
@@ -183,6 +187,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
           "imports": [

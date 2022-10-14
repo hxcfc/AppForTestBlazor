@@ -29,7 +29,6 @@ namespace AppForTestJob.Blazor.Server.DBModels
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
                 optionsBuilder.UseSqlServer(PrivateClass.PrivateConnString);
             }
         }
@@ -88,7 +87,7 @@ namespace AppForTestJob.Blazor.Server.DBModels
                     .HasColumnName("krs");
 
                 entity.Property(e => e.Name)
-                    .HasMaxLength(50)
+                    .HasMaxLength(150)
                     .IsUnicode(false)
                     .HasColumnName("name");
 
@@ -100,7 +99,7 @@ namespace AppForTestJob.Blazor.Server.DBModels
                 entity.Property(e => e.PeselId).HasColumnName("peselID");
 
                 entity.Property(e => e.RegistrationDenialBasis)
-                    .HasMaxLength(50)
+                    .HasMaxLength(150)
                     .IsUnicode(false)
                     .HasColumnName("registrationDenialBasis");
 
@@ -118,7 +117,7 @@ namespace AppForTestJob.Blazor.Server.DBModels
                     .HasColumnName("regon");
 
                 entity.Property(e => e.RemovalBasis)
-                    .HasMaxLength(50)
+                    .HasMaxLength(150)
                     .IsUnicode(false)
                     .HasColumnName("removalBasis");
 
@@ -127,12 +126,12 @@ namespace AppForTestJob.Blazor.Server.DBModels
                     .HasColumnName("removalDate");
 
                 entity.Property(e => e.ResidenceAddress)
-                    .HasMaxLength(50)
+                    .HasMaxLength(150)
                     .IsUnicode(false)
                     .HasColumnName("residenceAddress");
 
                 entity.Property(e => e.RestorationBasis)
-                    .HasMaxLength(50)
+                    .HasMaxLength(150)
                     .IsUnicode(false)
                     .HasColumnName("restorationBasis");
 
@@ -143,7 +142,7 @@ namespace AppForTestJob.Blazor.Server.DBModels
                 entity.Property(e => e.StatusVat).HasColumnName("statusVat");
 
                 entity.Property(e => e.WorkingAddress)
-                    .HasMaxLength(50)
+                    .HasMaxLength(150)
                     .IsUnicode(false)
                     .HasColumnName("workingAddress");
 
@@ -160,17 +159,17 @@ namespace AppForTestJob.Blazor.Server.DBModels
                 entity.Property(e => e.EntityPersonId).HasColumnName("entityPersonID");
 
                 entity.Property(e => e.CompanyName)
-                    .HasMaxLength(50)
+                    .HasMaxLength(150)
                     .IsUnicode(false)
                     .HasColumnName("companyName");
 
                 entity.Property(e => e.FirstName)
-                    .HasMaxLength(50)
+                    .HasMaxLength(150)
                     .IsUnicode(false)
                     .HasColumnName("firstName");
 
                 entity.Property(e => e.LastName)
-                    .HasMaxLength(50)
+                    .HasMaxLength(150)
                     .IsUnicode(false)
                     .HasColumnName("lastName");
 

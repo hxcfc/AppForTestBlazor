@@ -2261,8 +2261,10 @@
           "DevExpress.ExpressApp.Validation": "22.1.5",
           "DevExpress.Persistent.Base": "22.1.5",
           "DevExpress.Persistent.BaseImpl.EFCore": "22.1.5",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.10",
           "Microsoft.EntityFrameworkCore.InMemory": "5.0.5",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5",
+          "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "AppForTestJob.Module.dll": {}

@@ -18,7 +18,7 @@ namespace AppForTestJob.Module.BusinessObjects
         public int EntityId { get; set; }
         public string Name { get; set; }
         public string Nip { get; set; }
-        public bool? StatusVat { get; set; }
+        public string StatusVat { get; set; }
         public string Regon { get; set; }
         public int? PeselId { get; set; }
         public string Krs { get; set; }

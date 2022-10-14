@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q9jvDDYpc7ksEp/CkUHFPATYonzwMAlnws1hBkMoWJKqWyGltCsK/itgJYZLFHA7RplhhMTFJlzwrko4vRZUbA==",
+  "dgSpecHash": "X2903e6zU05242JnczuI8dD4Q3OC1+nuSV8MXNY6lib8d8Bv/i6cP/cTWWJKWJ/y4MhyNveFDhtqtsHi7FfCPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Blazor.Server\\AppForTestJob.Blazor.Server.csproj",
+  "projectFilePath": "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Blazor.Server\\AppForTestJob.Blazor.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Przemek-AL\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages\\devexpress.blazor\\22.1.5\\devexpress.blazor.22.1.5.nupkg.sha512",

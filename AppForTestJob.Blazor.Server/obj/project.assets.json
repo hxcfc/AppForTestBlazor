@@ -3925,8 +3925,10 @@
           "DevExpress.ExpressApp.Validation": "22.1.5",
           "DevExpress.Persistent.Base": "22.1.5",
           "DevExpress.Persistent.BaseImpl.EFCore": "22.1.5",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.10",
           "Microsoft.EntityFrameworkCore.InMemory": "5.0.5",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5",
+          "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
           "bin/placeholder/AppForTestJob.Module.dll": {}
@@ -11408,11 +11410,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Blazor.Server\\AppForTestJob.Blazor.Server.csproj",
+      "projectUniqueName": "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Blazor.Server\\AppForTestJob.Blazor.Server.csproj",
       "projectName": "AppForTestJob.Blazor.Server",
-      "projectPath": "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Blazor.Server\\AppForTestJob.Blazor.Server.csproj",
+      "projectPath": "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Blazor.Server\\AppForTestJob.Blazor.Server.csproj",
       "packagesPath": "C:\\Users\\Przemek-AL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Blazor.Server\\obj\\",
+      "outputPath": "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Blazor.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
@@ -11436,8 +11438,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Module\\AppForTestJob.Module.csproj": {
-              "projectPath": "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Module\\AppForTestJob.Module.csproj"
+            "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Module\\AppForTestJob.Module.csproj": {
+              "projectPath": "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Module\\AppForTestJob.Module.csproj"
             }
           }
         }

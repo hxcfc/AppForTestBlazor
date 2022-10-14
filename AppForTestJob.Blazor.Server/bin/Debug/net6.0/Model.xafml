@@ -1,5 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application>
+  <NavigationItems>
+    <Items>
+      <Item Id="ContractorDataBase">
+        <Items>
+          <Item Id="Entity_ListView" Index="0" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
   <SchemaModules>
     <SchemaModule Name="SystemModule" Version="22.1.5.0" IsNewNode="True" />
   </SchemaModules>
@@ -8,7 +17,7 @@
       <Layout>
         <LayoutGroup Id="Main">
           <LayoutGroup Id="SimpleEditors">
-            <LayoutGroup Id="AccountNumber">
+            <LayoutGroup Id="AccountNumber" Caption="AccountNumbera">
               <LayoutItem Id="AccountNumberId" Removed="True" />
               <LayoutItem Id="EntityId" Removed="True" />
             </LayoutGroup>
@@ -24,6 +33,7 @@
     </ListView>
     <ListView Id="AccountNumber_LookupListView">
       <Columns>
+        <ColumnInfo Id="Number" Caption="Number" />
         <ColumnInfo Id="AccountNumberId" Removed="True" />
         <ColumnInfo Id="EntityId" Removed="True" />
       </Columns>
@@ -117,7 +127,6 @@
               </LayoutGroup>
               <LayoutGroup Id="EntityPerson_col2">
                 <LayoutItem Id="Pesel" ViewItem="Pesel" />
-                <LayoutItem Id="PeselId" Removed="True" />
               </LayoutGroup>
             </LayoutGroup>
           </LayoutGroup>
@@ -127,7 +136,6 @@
     <ListView Id="EntityPerson_ListView">
       <Columns>
         <ColumnInfo Id="EntityPersonId" Removed="True" />
-        <ColumnInfo Id="PeselId" Removed="True" />
       </Columns>
     </ListView>
     <ListView Id="EntityPerson_Partners_ListView">
@@ -170,25 +178,13 @@
       </Columns>
     </ListView>
     <DetailView Id="Pesel_DetailView">
-      <Layout>
-        <LayoutGroup Id="Main">
-          <LayoutGroup Id="SimpleEditors">
-            <LayoutGroup Id="Pesel">
-              <LayoutItem Id="PeselId" Removed="True" />
-            </LayoutGroup>
-          </LayoutGroup>
-        </LayoutGroup>
-      </Layout>
+      <Items>
+        <PropertyEditor Id="PeselId" Removed="True" />
+      </Items>
     </DetailView>
     <ListView Id="Pesel_Entities_ListView">
       <Columns>
         <ColumnInfo Id="EntityId" Removed="True" />
-        <ColumnInfo Id="PeselId" Removed="True" />
-      </Columns>
-    </ListView>
-    <ListView Id="Pesel_EntityPeople_ListView">
-      <Columns>
-        <ColumnInfo Id="EntityPersonId" Removed="True" />
         <ColumnInfo Id="PeselId" Removed="True" />
       </Columns>
     </ListView>

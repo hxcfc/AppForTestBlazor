@@ -30,4 +30,9 @@
   <ItemGroup>
     <ProjectReference Include="..\AppForTestJob.Module\AppForTestJob.Module.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Update="UnusableNodes1.xml">
+      <DependentUpon>Model.xafml</DependentUpon>
+    </None>
+  </ItemGroup>
 </Project>

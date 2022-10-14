@@ -484,14 +484,7 @@
           }
         }
       },
-      "Humanizer.Core/2.8.26": {
-        "runtime": {
-          "lib/netstandard2.0/Humanizer.dll": {
-            "assemblyVersion": "2.8.0.0",
-            "fileVersion": "2.8.26.1919"
-          }
-        }
-      },
+      "Humanizer.Core/2.8.26": {},
       "Microsoft.AspNetCore.Authorization/6.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Metadata": "6.0.0",
@@ -759,12 +752,6 @@
           "Humanizer.Core": "2.8.26",
           "Microsoft.CSharp": "4.7.0",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.5"
-        },
-        "runtime": {
-          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll": {
-            "assemblyVersion": "5.0.5.0",
-            "fileVersion": "5.0.521.16102"
-          }
         }
       },
       "Microsoft.EntityFrameworkCore.InMemory/5.0.5": {
@@ -2261,8 +2248,10 @@
           "DevExpress.ExpressApp.Validation": "22.1.5",
           "DevExpress.Persistent.Base": "22.1.5",
           "DevExpress.Persistent.BaseImpl.EFCore": "22.1.5",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.10",
           "Microsoft.EntityFrameworkCore.InMemory": "5.0.5",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5",
+          "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "AppForTestJob.Module.dll": {}

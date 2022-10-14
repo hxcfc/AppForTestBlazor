@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2xLT+RXyt+9Yc/K4dPcIxNVgSI/lIBRKaCyixI/bYBA=",
+  "Hash": "deXUgmpcfUOVDhVo59/Et1/a0kht2Yd3Gr1OeaahHxI=",
   "Source": "AppForTestJob.Blazor.Server",
   "BasePath": "_content/AppForTestJob.Blazor.Server",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "AppForTestJob.Blazor.Server\\wwwroot",
       "Source": "AppForTestJob.Blazor.Server",
-      "ContentRoot": "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/AppForTestJob.Blazor.Server",
       "Pattern": "**"
     }
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages\\devexpress.expressapp.blazor\\22.1.5\\staticwebassets\\styles.css"
     },
     {
-      "Identity": "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Blazor.Server\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Blazor.Server\\wwwroot\\css\\site.css",
       "SourceId": "AppForTestJob.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/AppForTestJob.Blazor.Server",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Blazor.Server\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Blazor.Server\\wwwroot\\favicon.ico",
       "SourceId": "AppForTestJob.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/AppForTestJob.Blazor.Server",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Blazor.Server\\wwwroot\\images\\Logo.svg",
+      "Identity": "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Blazor.Server\\wwwroot\\images\\Logo.svg",
       "SourceId": "AppForTestJob.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/AppForTestJob.Blazor.Server",
       "RelativePath": "images/Logo.svg",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Logo.svg"
     },
     {
-      "Identity": "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Blazor.Server\\wwwroot\\images\\SplashScreen.svg",
+      "Identity": "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Blazor.Server\\wwwroot\\images\\SplashScreen.svg",
       "SourceId": "AppForTestJob.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Przemek-AL\\Desktop\\re\\AppForTestJob\\AppForTestJob.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Przemek-AL\\Desktop\\AppForTestBlazor\\AppForTestBlazor\\AppForTestJob.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/AppForTestJob.Blazor.Server",
       "RelativePath": "images/SplashScreen.svg",
       "AssetKind": "All",

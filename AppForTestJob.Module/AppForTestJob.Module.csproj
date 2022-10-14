@@ -21,7 +21,9 @@
     <PackageReference Include="DevExpress.ExpressApp.Validation" Version="22.1.5" />
     <PackageReference Include="DevExpress.Persistent.Base" Version="22.1.5" />
     <PackageReference Include="DevExpress.Persistent.BaseImpl.EFCore" Version="22.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 </Project>
